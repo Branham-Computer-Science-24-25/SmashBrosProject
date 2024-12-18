@@ -2,17 +2,22 @@ import java.util.Scanner;
 import java.util.Random;
 
 /**
- * Class that runs the Smash game
- * @author jIngraffia
- * @author dKeane
- */
+* Class that runs the Smash game. This game simulates a battle between two characters, JudoChop and TheMachine.
+* Players take turns selecting actions, and the game continues until one or both players' health reaches zero.
+* A winner is then declared based on the outcomes of the battle.
+*
+* @author jIngraffia
+* @author dKeane
+*/
 
 public class SmashTester {
 
     /**
-     * main method to run user input and display text
-     */
-
+    * The main method that runs the game loop, collects user input, displays information, and determines the outcome.
+    *
+    * @param args Command-line arguments (not used in this program).
+    */
+    
     public static void main(String[] args) {
         // create new scanner object (in)
         Scanner in = new Scanner(System.in);
